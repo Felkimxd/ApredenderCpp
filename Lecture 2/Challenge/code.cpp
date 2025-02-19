@@ -126,12 +126,34 @@ int main(){
 
     /*
     1. a = 42;
+    a: is a L_value
+    42: is a R_value
+
     2. int x = a + b;
+
+    a+b: is a R_value
+    x: is a L_value
+
     3. & a;
+
+    a: is a L_value
+
     4. std::string s = c + " World";
+
+    s: is a L_value
+    c+" World": is a R_value
+
     5. int &refX = x;
+
+    refx: is a  reference for a L_value
+    x: is a L_value
+
     6. int &&rref = 100;
+
+    rref: is a reference for a R_value
+    100 : is a R_value
+
     */
-   
+
     return 0;
 }
