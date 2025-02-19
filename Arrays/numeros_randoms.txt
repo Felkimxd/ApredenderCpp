@@ -1,0 +1,5 @@
+Se puede usar la funcion rand() esta genera numeros entre 0 y 1000
+
+Se usa algo asi
+
+int numero_aleatorio = (Aqui se pondria el numero por el que comienza)  + rand() % (Aqui se ingresa el maximo)
