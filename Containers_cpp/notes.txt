@@ -1,0 +1,43 @@
+STD -> Standar Library  !=  STL -> Standard Template Library
+
+STL es una pequeño grupo de la libreria STD
+
+Una template o que hace es que declaremos una estructura paa almacenar datos
+y le demos el typo de dato que nosotros asignemos a la misma estructura 
+creada
+
+Cuando sea posible usaremos un range-based for
+    for (auto elem: vec){
+
+        std::cout << elem << " ";
+    }
+That applies for all iterable containers.
+
+for( const auto& elem : v)
+
+Avoid to copy each element when a vector was massive
+
+
+Deque its like a vector but splitted in different memory llocations making it more
+affordable to work with data.
+
+Map it like dictionaries of Python
+Map es una coleccion de pairs en las que el primer valor de esta es una constante
+para no alterar su key
+
+Map is implemented with a Binary Search Tree where compares the number "priority" of letters
+
+    std::map<std::string,int> map;
+
+    for (auto kv:map){
+
+        //kv is a std:pair<const std::string,int>
+        std::string key = kv.first;
+        int value = kv.second;
+    }
+
+    std::map<K,V> map1 -> K debe tener un operador < ;
+
+Set stores a collection of unique elemenets
+
+Unordered maps and sets need an hashable datatype by the how it stores on the memory
