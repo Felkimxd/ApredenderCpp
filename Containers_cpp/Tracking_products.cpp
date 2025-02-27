@@ -32,21 +32,21 @@ void diplayCategories(std::set<std::string> &productCategories)
 
 }
 
-int main()
-{
-    std::set<std::string> productCategories;
+// int main()
+// {
+//     std::set<std::string> productCategories;
 
-    // Adding categories
-    // productCategories.insert("Electronics");
-    // productCategories.insert("Accessories");
-    // productCategories.insert("Peripherals");
+//     // Adding categories
+//     // productCategories.insert("Electronics");
+//     // productCategories.insert("Accessories");
+//     // productCategories.insert("Peripherals");
 
-    for (int i = 0; i < 3; i++)
-    {
-        newCategory(productCategories);
-    }
+//     for (int i = 0; i < 3; i++)
+//     {
+//         newCategory(productCategories);
+//     }
 
-    diplayCategories(productCategories);
+//     diplayCategories(productCategories);
 
-    return 0;
-}
+//     return 0;
+// }

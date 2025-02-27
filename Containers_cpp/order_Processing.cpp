@@ -29,23 +29,23 @@ void ProcessOrders(std::queue<std::string> &orders)
     }
 }
 
-int main()
-{
-    std::queue<std::string> orders;
-    int numOrder = 1;
+// int main()
+// {
+//     std::queue<std::string> orders;
+//     int numOrder = 1;
 
-    // Adding orders
-    for (int i = 0; i < 3; i++)
-    {   
-        manageOrders(numOrder,orders);
-        numOrder++;
-    }
+//     // Adding orders
+//     for (int i = 0; i < 3; i++)
+//     {   
+//         manageOrders(numOrder,orders);
+//         numOrder++;
+//     }
     
-    // orders.push("Order#2: Mouse");
-    // orders.push("Order#3: Keyboard");
+//     // orders.push("Order#2: Mouse");
+//     // orders.push("Order#3: Keyboard");
 
-    // Processing orders
-    ProcessOrders(orders);
+//     // Processing orders
+//     ProcessOrders(orders);
 
-    return 0;
-}
+//     return 0;
+// }

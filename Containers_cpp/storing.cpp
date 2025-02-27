@@ -26,20 +26,20 @@ void diplayCart(std::vector<std::string> &customerCart)
 
 }
 
-int main() {
-    std::vector<std::string> customerCart;
+// int main() {
+//     std::vector<std::string> customerCart;
 
-    // Adding items to cart
-    for (int i = 0; i < 3; i++)
-    {
-        itemstoCart(customerCart);
-    }
+//     // Adding items to cart
+//     for (int i = 0; i < 3; i++)
+//     {
+//         itemstoCart(customerCart);
+//     }
     
-    // customerCart.push_back("Laptop");
-    // customerCart.push_back("Mouse");
-    // customerCart.push_back("Keyboard");
+//     // customerCart.push_back("Laptop");
+//     // customerCart.push_back("Mouse");
+//     // customerCart.push_back("Keyboard");
 
-    diplayCart(customerCart);
+//     diplayCart(customerCart);
 
-    return 0;
-}
+//     return 0;
+// }

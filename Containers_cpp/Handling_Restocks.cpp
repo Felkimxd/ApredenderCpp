@@ -32,24 +32,24 @@ void processingRestocks(std::stack<std::pair<std::string, int>> &restocks)
 
 }
 
-int main()
-{
-    std::stack<std::pair<std::string, int>> restocks;
+// int main()
+// {
+//     std::stack<std::pair<std::string, int>> restocks;
 
     
-    // Adding restock batches
-    // restocks.push({"Mouse", 10});
-    // restocks.push({"Laptop", 2});
-    // restocks.push({"Keyboard", 5});
+//     // Adding restock batches
+//     // restocks.push({"Mouse", 10});
+//     // restocks.push({"Laptop", 2});
+//     // restocks.push({"Keyboard", 5});
 
-    for (int i = 0; i < 3; i++)
-    {
-        restockBatches(restocks);
-    }
+//     for (int i = 0; i < 3; i++)
+//     {
+//         restockBatches(restocks);
+//     }
     
 
-    // Processing restocks
-    processingRestocks(restocks);
+//     // Processing restocks
+//     processingRestocks(restocks);
 
-    return 0;
-}
+//     return 0;
+// }

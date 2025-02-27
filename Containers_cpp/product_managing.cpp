@@ -74,24 +74,24 @@ void availableProducts(const std::map<std::string, int> &inventory)
     std::cout << "===============================" << std::endl;
 }
 
-int main()
-{
-    std::map<std::string, int> inventory;
+// int main()
+// {
+//     std::map<std::string, int> inventory;
 
-    // Adding products
-    // inventory["Laptop"] = 5;
-    // inventory["Mouse"] = 20;
-    // inventory["Keyboard"] = 10;
-    for (int i = 0; i < 3; i++)
-    {
-        addProduct(inventory);
-    }
+//     // Adding products
+//     // inventory["Laptop"] = 5;
+//     // inventory["Mouse"] = 20;
+//     // inventory["Keyboard"] = 10;
+//     for (int i = 0; i < 3; i++)
+//     {
+//         addProduct(inventory);
+//     }
     
-    editQuantity(inventory);
+//     editQuantity(inventory);
 
-    availableProducts(inventory);
+//     availableProducts(inventory);
 
-    displayInventory(inventory);
+//     displayInventory(inventory);
 
-    return 0;
-}
+//     return 0;
+// }
