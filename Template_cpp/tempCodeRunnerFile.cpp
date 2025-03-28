@@ -1,5 +1,7 @@
+#include <iostream>
+#include <concepts>
+
+using namespace std;
+
 template <typename T>
-T maxValue(T a, T b)
-{
-    return (a > b) ? a : b;
-}
+concept Numeric = std::integral<T> || std::floating_point
