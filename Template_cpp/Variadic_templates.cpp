@@ -33,5 +33,7 @@ void printAll(T t, Args... args)
 
 int main()
 {
+    std::cout << "=================== Variadic Template Function ==============================" << std::endl;
     printAll('c', 2.662, "Felipe", true); // Should print: 1 2.5 Hello c
+    std::cout << "============================================================================" << std::endl;
 }

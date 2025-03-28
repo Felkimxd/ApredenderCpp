@@ -22,6 +22,8 @@ T sum(T t, Args... args)
 
 int main()
 {
+    std::cout << "=================== Variadic Template for Summation ==============================" << std::endl;
     cout << sum(5, 5, 5, 5, 5) << endl; // Should print 25
     cout << sum(1.5, 2.1, 3.9) << endl; // Should print 7.5
+    std::cout << "============================================================================" << std::endl;
 }

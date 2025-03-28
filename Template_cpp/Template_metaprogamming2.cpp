@@ -25,6 +25,7 @@ int main(){
     //the coun of numbers initiate with the case 0 
 
     constexpr int result = Fibonacci<23>::value_F;
-
+    std::cout << "============================ Fibonnacci Templates ==========================" << std::endl;
     std::cout << result << std::endl;
+    std::cout << "==========================================================================" << std::endl;
 }

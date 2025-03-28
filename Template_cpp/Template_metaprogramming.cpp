@@ -51,6 +51,7 @@ int main()
 
     ::value is accesing to the member "value" of the struct declared before.
     */
-
+    std::cout << "============================ Factorial Templates ==========================" << std::endl;
     std::cout << result << std::endl; // Should print 120
+    std::cout << "==========================================================================" << std::endl;
 }
