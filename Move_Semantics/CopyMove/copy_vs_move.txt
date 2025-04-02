@@ -1,0 +1,17 @@
+- What is the output of this program?
+    The output is:
+    v1 size: 0
+    v2 size: 4
+    v3 size: 4
+
+- Why does v1.size() return 0 after the move?
+    Because the move constructor of std::vector transfers ownership of v1's internal storage to v3, 
+    and the move constructor of std::vector resets v1.size()=0.
+
+- Why does std::move do?
+    Cast the an object to an rvalue reference (T&&), allowing it to be moved
+    instead of copied. Move operation is performed by move constructor.
+
+-Why is v1 still in a valid but unspecified state?
+    Because std::move only changes the 'owner' of the data, because that moves the internal
+    array instead of copying.
