@@ -114,7 +114,16 @@
     "variant": "cpp",
     "map": "cpp",
     "complex": "cpp",
-    "cinttypes": "cpp"
+    "cinttypes": "cpp",
+    "codecvt": "cpp",
+    "cstring": "cpp",
+    "condition_variable": "cpp",
+    "semaphore": "cpp",
+    "stop_token": "cpp",
+    "thread": "cpp",
+    "any": "cpp",
+    "list": "cpp"
   },
-  "cmake.sourceDirectory": "C:/CARPETAS IMPORTANTES/Carpetas/ApredenderC++/FlashcardApp"
+  "cmake.sourceDirectory": "C:/CARPETAS IMPORTANTES/Carpetas/ApredenderC++/FlashcardApp",
+  "cmake.ignoreCMakeListsMissing": true
 }

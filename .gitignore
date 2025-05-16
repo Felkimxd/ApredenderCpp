@@ -1,1 +1,5 @@
-C:\CARPETAS IMPORTANTES\Carpetas\ApredenderC++\.vscode
+.vscode/
+DataAnalist/include/
+.gitignore
+DataAnalist/build/
+DataAnalist/Data/
