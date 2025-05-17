@@ -6,6 +6,8 @@
 #include <sstream>
 #include "CLI11.hpp"
 #include "barkeep.h"
+#include <chrono>
+#include <thread>
 
 using namespace std;
 using namespace barkeep;
@@ -29,30 +31,27 @@ vector<vector<string>> fromCountry(string fileName, string country)
     ifstream file(fileName);
     if (file.is_open())
     {
-        long long unsigned int total = 0;
-        string xd;
-        while (getline(file, xd))
-        {
-            total += 1;
-        };
-        file.clear(); // Reset EOF flag
-        file.seekg(0);
-        cout << total << '\n';
-        size_t progress = 0;
-        auto bar = barkeep::ProgressBar(&progress, barkeep::ProgressBarConfig<size_t>{.total = total});
-        bar->show();
+        // Inicializar el contador
+        int work{0};
+        auto c = barkeep::Counter(&work, {.message = "Reading Lines",
+                                          .speed = 1.0,
+                                          .speed_unit = "lines/s"});
 
+        getline(file, line);
+       
+        // Segunda pasada para procesar datos
         while (getline(file, line))
         {
-            progress++;
-
             vector<string> aux = split(line, ';');
-            if (aux[7] == country)
+            if (aux.size() >= 8 && aux[7] == country)
             {
                 ans.push_back(aux);
             }
-
+            work++;
+           
         }
+
+        c->done();
     }
     else
     {
