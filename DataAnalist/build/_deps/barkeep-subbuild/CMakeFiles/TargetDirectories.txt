@@ -1,0 +1,3 @@
+C:/CARPETAS IMPORTANTES/Carpetas/ApredenderC++/DataAnalist/build/_deps/barkeep-subbuild/CMakeFiles/barkeep-populate.dir
+C:/CARPETAS IMPORTANTES/Carpetas/ApredenderC++/DataAnalist/build/_deps/barkeep-subbuild/CMakeFiles/edit_cache.dir
+C:/CARPETAS IMPORTANTES/Carpetas/ApredenderC++/DataAnalist/build/_deps/barkeep-subbuild/CMakeFiles/rebuild_cache.dir

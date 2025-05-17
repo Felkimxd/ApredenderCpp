@@ -1,0 +1,3 @@
+C:/CARPETAS IMPORTANTES/Carpetas/ApredenderC++/DataAnalist/build/CMakeFiles/DataAnalyst.dir
+C:/CARPETAS IMPORTANTES/Carpetas/ApredenderC++/DataAnalist/build/CMakeFiles/edit_cache.dir
+C:/CARPETAS IMPORTANTES/Carpetas/ApredenderC++/DataAnalist/build/CMakeFiles/rebuild_cache.dir
